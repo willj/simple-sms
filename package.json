@@ -1,0 +1,22 @@
+{
+  "name": "simple-sms",
+  "version": "1.0.0",
+  "description": "A basic wrapper for sending simple SMS messages on AWS SNS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/willj/simple-sms.git"
+  },
+  "author": "willj.uk",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/willj/simple-sms/issues"
+  },
+  "homepage": "https://github.com/willj/simple-sms#readme",
+  "dependencies": {
+    "aws-sdk": "^2.36.0"
+  }
+}
