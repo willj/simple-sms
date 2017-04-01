@@ -19,7 +19,7 @@ module.exports = {
         }
 
         this.snsClient = new sns({
-            apiVersion: '2010-03-31', 
+            apiVersion: "2010-03-31", 
             region: region,
             credentials: {accessKeyId: key, secretAccessKey: secret}
         });
