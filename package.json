@@ -1,7 +1,7 @@
 {
   "name": "simple-sms",
-  "version": "1.0.0",
-  "description": "A basic wrapper for sending simple SMS messages on AWS SNS",
+  "version": "2.0.0",
+  "description": "A wrapper around Amazon SNS to send simple transactional SMS messages.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
