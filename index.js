@@ -5,7 +5,7 @@ const sns = require("aws-sdk/clients/sns");
 module.exports = {
     snsClient: null,
 
-    init: function({accessKeyId, secretAccesskey, awsRegion}){
+    init: function({ accessKeyId, secretAccesskey, awsRegion } = {}){
         let key = accessKeyId || process.env.AwsAccessKeyId;
         let secret = secretAccesskey || process.env.AwsSecretAccessKey;
         let region = awsRegion || process.env.AwsRegion;
